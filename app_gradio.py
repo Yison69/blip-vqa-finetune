@@ -60,7 +60,7 @@ iface = gr.Interface(
         gr.Textbox(label="输入问题")             # 文本输入框
     ],
     outputs=gr.Textbox(label="模型回答"),        # 文本输出框
-    title="BLIP 视觉问答 (VQA)",
+    title="BLIP VQA made by Yison",
     description="上传一张图片，输入一个关于图片的问题，模型会尝试回答。",
     examples=[
         ["./Data/coco2014/val2014/COCO_val2014_000000000042.jpg", "What is on the plate?"],

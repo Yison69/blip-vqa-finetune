@@ -69,7 +69,7 @@ cd ../..
 
 ## Run finetuning code
 
-    python finetuning_self.py
+    python finetuning_self.py / 训练好的模型保存在Model目录下
 
 ## Run prediction
 
