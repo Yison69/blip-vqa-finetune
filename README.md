@@ -9,9 +9,11 @@ This implementation applies the BLIP pre-trained model to solve the icon domain 
 # Description
 **Note: The test dataset does not have labels. I evaluated the model via Kaggle competition and got 96% in accuracy manner. Obviously, you can use a partition of the training set as a testing set.
 ## Create data folder
-
 ##Copy all data following the example form
 //You can download data [here](https://drive.google.com/file/d/1tt6qJbOgevyPpfkylXpKYy-KaT4_aCYZ/view?usp=sharing)
+
+##download dataset
+
 # 进入您想存放数据的父目录 (例如项目根目录)
 cd ~/autodl-tmp/blip-vqa-ft/blip-vqa-finetune  
 
@@ -78,6 +80,9 @@ cd ../..
     python app_gradio.py
 
 ### References:
+
+##other :
+    autodl学术加速命令 ： source /etc/network_turbo
 
 > Nguyen Van Tuan (2023). JAIST_Advanced Machine Learning_Visual_Question_Answering
 
